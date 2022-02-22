@@ -29,3 +29,7 @@ vnoremap <leader>BT    <Esc>:action ToggleBookmarkWithMnemonic<CR>
 let g:WhichKeyDesc_Bookmarks_Toggle = "<leader>Bt toggle-bookmark"
 nnoremap <leader>Bt    :action ToggleBookmark<CR>
 vnoremap <leader>Bt    :action ToggleBookmark<CR>
+
+" Create named bookmark 
+nnoremap <leader>Bc    :action Macro.create named bookmark<CR>
+vnoremap <leader>Bc    <Esc>:action Macro.create named bookmark<CR>

@@ -38,9 +38,12 @@ nnoremap <leader>mrI      :action ImplementMethods<CR>
 vnoremap <leader>mrI      <Esc>:action ImplementMethods<CR>
 
 " Optimize imports
+nnoremap <leader>mri      :action Inline<CR>
+vnoremap <leader>mri      <Esc>:action Inline<CR>
+
 let g:WhichKeyDesc_Major_Refactoring_OptimizeImports = "<leader>mri optimize-imports"
-nnoremap <leader>mri      :action OptimizeImports<CR>
-vnoremap <leader>mri      <Esc>:action OptimizeImports<CR>
+nnoremap <leader>mrop      :action OptimizeImports<CR>
+vnoremap <leader>mrop      <Esc>:action OptimizeImports<CR>
 
 " Create a new Element.
 let g:WhichKeyDesc_Major_Refactoring_NewElement = "<leader>mrN new-element"

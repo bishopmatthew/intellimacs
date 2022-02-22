@@ -27,6 +27,10 @@ let g:WhichKeyDesc_Files_GotoFile = "<leader>ff goto-file"
 nnoremap <leader>ff    :action GotoFile<CR>
 vnoremap <leader>ff    :action GotoFile<CR>
 
+" Search in project
+nnoremap <leader>fg    :action FindInPath<CR>
+vnoremap <leader>fg    <Esc>:action FindInPath<CR>
+
 " Rename file
 let g:WhichKeyDesc_Files_Rename = "<leader>fR rename"
 nnoremap <leader>fR    :action RenameFile<CR>

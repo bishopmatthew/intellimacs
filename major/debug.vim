@@ -8,6 +8,11 @@ let g:WhichKeyDesc_Major_Debug_ToggleBreakpoint = "<leader>mdb toggle-breakpoint
 nnoremap <leader>mdb    :action ToggleLineBreakpoint<CR>
 vnoremap <leader>mdb    <Esc>:action ToggleLineBreakpoint<CR>
 
+" Toggle breakpoint
+nnoremap <leader>mde    :action ToggleBreakpointEnabled<CR>
+vnoremap <leader>mde    <Esc>:action ToggleBreakpointEnabled<CR>
+
+
 " Clear all breakpoints
 let g:WhichKeyDesc_Major_Debug_ClearAllBreakpoints = "<leader>mdC clear-all-breakpoints"
 nnoremap <leader>mdC    :action Debugger.RemoveAllBreakpointsInFile<CR>

@@ -12,3 +12,7 @@ vnoremap <leader>eR    <Esc>:action RunInspection<CR>
 let g:WhichKeyDesc_Errors_ResolveError = "<leader>er resolve-error"
 nnoremap <leader>er    :action ShowIntentionActions<CR>
 vnoremap <leader>er    :action ShowIntentionActions<CR>
+
+" Edit inspection settings
+nnoremap <leader>es    :action EditInspectionSettings<CR>
+vnoremap <leader>es    <Esc>:action EditInspectionSettings<CR>
